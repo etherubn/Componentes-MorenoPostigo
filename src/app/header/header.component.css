@@ -1,0 +1,16 @@
+header{
+  display: flex;
+  height: var(--header-height);
+  justify-content: space-between;
+  padding: 2rem 3rem;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.header__img{
+  height: 5rem;
+}
+
+header h1:hover{
+  color: black;
+}

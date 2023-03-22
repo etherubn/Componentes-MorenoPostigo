@@ -1,0 +1,21 @@
+.filtros{
+  position: fixed;
+  padding-top: 2rem;
+  padding-inline: 1.5rem;
+  height: calc(100vh - var(--header-height));
+  width: var(--filtro-width);
+  background-color: rgba(100,100, 100, 0.6);
+}
+
+
+.filtros__categoria{
+  color: rgb(0, 84, 162);
+  font-size: 1.8rem;
+  margin-block: 2rem;
+}
+
+.filtros__enlace{
+  font-weight: 700;
+  color:rgb(80, 84, 162) ;
+  font-size: 1.7rem;
+}

@@ -1,0 +1,28 @@
+
+.main__title{
+  text-align: center;
+}
+
+.card-container{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+.card{
+  padding: 1rem;
+  border: 0.2rem solid rgb(91, 84, 229);
+  border-radius: 2rem;
+  background-color: cadetblue;
+  color: black;
+
+}
+
+.card:hover{
+  border-color: black;
+}
+
+.card-img-top{
+  margin-bottom: 1.5rem;
+}

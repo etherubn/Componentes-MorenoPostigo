@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;500;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+}
+
+:root{
+  --header-height:9rem;
+  --filtro-width:20rem;
+}
+
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+body{
+  background-image: radial-gradient(circle, #3a7259, #006f6c, #006a84, #006199, #00529e, #015aab, #0163b8, #006bc6, #0092e0, #00b7ed, #00daf1, #5ffbf1);
+  background-attachment: fixed;
+}
+
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+a{
+        text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+img{
+        max-width: 100%;
+        height: auto;
+}
+
